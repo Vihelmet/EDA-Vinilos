@@ -25,3 +25,29 @@ Dada la enorme cantidad de registros que tenía esta base de datos, y teniendo e
 <h2 id="Conclusiones"> :printer: Conclusiones</h2>
 
 Después de bucear por los datos y sacar la foto en algunos de los aspectos más generales, nos centramos en el formato de nuestra hipótesis y vemos claramente que, a pesar de que los diversos formatos fluctúan sea por modas o por variaciones en su aparición y descubrimiento, el vinilo se mantiene a lo largo del tiempo entre los formatos más publicados. Por lo que podríamos decir que **nuestra hipótesis queda confirmada tras analizar los datos**.
+
+_____________________________________________
+
+<h1 id="EDA: Vinyl Format Across Centuries"> :musical_score: EDA: Vinyl Format Across Centuries</h1>
+
+The music industry has witnessed various changes in the format of its products over the years. However, the format that always seems to remain unshakable is vinyl. Since its inception in the mid-1950s, it's been cherished and romantically regarded almost as a cult favorite.
+
+For music enthusiasts, the choice has always been more or less clear, but let's see if we can analyze, based on the release data of musical products in various formats over more than a century, whether it's true that regardless of trends and the emergence of other formats, vinyl has continued to be produced and purchased. To do this, we will employ an Exploratory Data Analysis (EDA) using Python.
+
+<h2 id="Data Source"> :bar_chart: Data Source</h2>
+
+The *DISCOGS* platform hosts information and databases about music, aiming to gather all information about commercial, promotional, and unofficial records, as they define themselves. Precisely from this platform, we have obtained a rich database with over 17 million records of all discs published from 1860 onwards, categorized by their release year, country, genre, and format.
+
+<h3 id="Analysis Workflow"> :detective: Analysis Workflow</h3>
+
++ Firstly, we performed data cleaning, handling missing values, dealing with commas or white spaces, and converting data types as needed for proper analysis.
+
++ Next, we grouped the data based on what we wanted to study, comparing them to each other and applying various correlation and comparison methods.
+
++ Lastly, we implemented the necessary graphs for optimal visualization of the analysis.
+
+Given the vast number of records in this database, and considering the purposes of this EDA, we decided to narrow the study down to the top 5 countries with the highest musical production, the top 5 most produced music styles, and the top 5 most used formats. Thus, we analyze the data from a more macro perspective down to our goal, which is confirming a particular hypothesis.
+
+<h2 id="Conclusions"> :printer: Conclusions</h2>
+
+After delving into the data and capturing the overview of some of the most general aspects, we focused on our hypothesis's format. It's clear that despite various formats fluctuating due to trends or variations in their emergence and discovery, vinyl has remained one of the most published formats over time. Thus, we could say that **our hypothesis is confirmed after analyzing the data**.
