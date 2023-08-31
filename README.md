@@ -11,7 +11,7 @@ Para los amantes de la música, siempre ha estado más o menos clara la elecció
 
 La plataforma *DISCOGS* alberga información y bases de datos acerca de la música, e intenta recopilar toda la información acerca de los discos comerciales, promocionales, y discos no oficiales, tal y como ellos mismos se definen. Precisamente de esta plataforma, hemos obtenido una riquísima base de datos, con más de 17 millones de registros, sobre todos los discos publicados desde 1860 en adelante, en función de su año de publicación, país, género y formato.
 
-<h3 id="Desarrollo del trabajo de análisis"> :woman_detective: Desarrollo del trabajo de análisis</h3>
+<h3 id="Desarrollo del trabajo de análisis"> :detective: Desarrollo del trabajo de análisis</h3>
 
 + En primer lugar, hemos llevado a cabo una limpieza de los datos, en cuanto a valores faltantes, valores con comas o espacios en blanco, y convirtiendo los tipos de datos allá donde fuera necesario a fin de poder analizarlos correctamente.
 
